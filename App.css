@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+.mainBg {
+  background: url('https://www.pixel4k.com/wp-content/uploads/2018/11/mountains-tops-snow-sky-4k_1541114285.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.login {
+  position: absolute;
+  width: 100%;
+}
+
+.login>p {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: white;
+}
+
+.navbar {
+  height: 4.03vw;
+  border-bottom: 0.8px solid #f5f5f538;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+  width: 14vw;
+  height: 4.05vw;
+}
+
+.logo_img {
+  width: 1.6vw;
+  cursor: pointer;
+  height: 1.6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.logo>p {
+  color: #e2e2e2;
+  font-size: 1.35vw;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.gmail_img {
+  width: 2.4vw;
+  height: 2.4vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.search {
+  display: flex;
+}
+
+.search>input {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  font-size: 1.05vw;
+  border: none;
+  height: 3.1vw;
+  outline: none;
+  width: 43vw;
+  position: relative;
+  background: #ffffff40;
+  color: white;
+  padding-left: 3.6vw;
+  border-radius: 7px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.search>input::placeholder {
+  color: rgb(235, 235, 235);
+}
+
+.search_img {
+  position: relative;
+  width: 1.05vw;
+  height: 1.06vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  left: 2.3vw;
+}
+
+.user_img {
+  width: 2.3vw;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+  left: -1.4vw;
+}
+
+.user {
+  height: 4.05vw;
+  display: flex;
+}
+
+.sidebar {
+  height: 12.5vw;
+  width: 17vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.compose_img {
+  width: 1.8vw;
+  height: 1.8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+  left: 2.9vw;
+}
+
+.compose {
+  display: flex;
+  cursor: pointer;
+  margin-left: -1vw;
+  position: relative;
+  top: 1vw;
+}
+
+.compose_btn {
+  background: white;
+  border: none;
+  font-size: 0.9vw;
+  color: #4b4b4b;
+  padding-left: 3vw;
+  border-radius: 1.5vw;
+  width: 9.2vw;
+  height: 3.15vw;
+  cursor: pointer;
+  box-shadow: 0px 0px 4px #0000006b;
+}
+
+.inbox {
+  display: flex;
+  background: #ffffff57;
+  height: 2.1vw;
+  border-radius: 1.2vw;
+  position: relative;
+  left: -1vw;
+}
+
+.sent {
+  display: flex;
+  background: none;
+  height: 2.1vw;
+  border-radius: 1.2vw;
+  position: relative;
+  left: -1vw;
+  margin-top: -2.23vw;
+}
+
+.inbox_name {
+  color: white;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 1vw;
+  font-size: 0.9vw;
+  font-weight: 700;
+}
+
+.sent_name {
+  color: white;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-size: 0.9vw;
+  font-weight: 700;
+  margin-left: 1vw;
+}
+
+.inbox_icon {
+  color: white;
+  margin-left: 2vw;
+  width: 1.3vw;
+  height: 1.3vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.sent_icon {
+  color: white;
+  margin-left: 2vw;
+  width: 1.3vw;
+  height: 1.3vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.mails {
+  width: 80vw;
+  background: #fefefef2;
+  position: relative;
+  height: 39.7vw;
+  top: -9.35vw;
+  left: 18vw;
+}
+
+.main_items {
+  display: flex;
+}
+
+.tabs {
+  width: -webkit-fill-available;
+  height: 3.75vw;
+  border-bottom: 1px solid #8080802e;
+}
+
+.primary_text {
+  color: #e50000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.93vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  position: relative;
+  left: -4.5vw;
+}
+
+.primary_icon {
+  width: 1.4vw;
+  height: 1.4vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  position: relative;
+  left: -2vw;
+}
+
+.primary_tab {
+  height: 3.6vw;
+  display: flex;
+  justify-content: space-evenly;
+  width: 16vw;
+  cursor: pointer;
+  border-bottom: 3px solid #e50000;
+  position: relative;
+  left: 0.3vw;
+}
+
+.primary_tab:hover {
+  background: rgba(214, 214, 214, 0.251);
+}
+
+.main_mail {
+  width: -webkit-fill-available;
+  height: 2.8vw;
+  background: #f6f6f614;
+  border-bottom: 1px solid #d0d0d085;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mail_main:hover {
+  transform: scaleY(1.05);
+  font-size: 0.95vw;
+  box-shadow: 0px 0px 4px rgba(15, 15, 15, 0.21);
+  border: none;
+}
+
+.all_mails {
+  overflow-x: scroll;
+  height: 35.7vw;
+  overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.mail_main {
+  position: relative;
+  cursor: pointer;
+  overflow-x: hidden;
+}
+
+.mail_name {
+  font-size: 0.95vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 11vw;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mail_date {
+  font-size: 0.85vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #000000c7;
+}
+
+.mail_content {
+  font-size: 0.95vw;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: 46vw;
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+}
+
+.mail_title {
+  font-size: 0.95vw;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  position: relative;
+  left: 1.7vw;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  width: 9vw;
+  justify-content: flex-start;
+}
+
+.del {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 1vw;
+  height: 1vw;
+  border: 1px solid #6d6d6d;
+  outline: none;
+}
+
+.compose_main {
+  width: 37vw;
+  height: 30vw;
+  background: white;
+  position: relative;
+  margin-top: -39.45vw;
+  margin-left: auto;
+  left: -2vw;
+  border-top-right-radius: 0.7vw;
+  border-top-left-radius: 0.7vw;
+  box-shadow: 0px 0px 2px #cbcbcb;
+  display: none;
+}
+
+.compose_header {
+  width: -webkit-fill-available;
+  background: #000000bd;
+  height: 2.6vw;
+  position: relative;
+  border-top-right-radius: 0.7vw;
+  border-top-left-radius: 0.7vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.compose_header_text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.93vw;
+  position: relative;
+  left: 1.2vw;
+}
+
+.compose_icon {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  color: grey;
+  width: 1.2vw;
+  height: 1.2vw;
+  cursor: pointer;
+  position: relative;
+  left: -1vw;
+}
+
+.compose_icon:hover {
+  color: white;
+}
+
+.compose_body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 0.3vw;
+}
+
+.compose_title {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-size: 0.95vw;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  padding: 0.45vw;
+  border-bottom: 1.6px solid #efefef;
+  width: 34vw;
+  position: relative;
+  left: 1vw;
+  color: #000000d9;
+  margin-bottom: 0.2vw;
+}
+
+.compose_subject {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-size: 0.95vw;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  padding: 0.45vw;
+  border-bottom: 1.6px solid #efefef;
+  width: 34vw;
+  position: relative;
+  left: 1vw;
+  color: #000000d9;
+}
+
+.compose_content {
+  outline: none;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.95vw;
+  padding-left: 1.49vw;
+  color: #000000d9;
+  padding-top: 1vw;
+  width: 34.6vw;
+  height: 18vw;
+}
+
+.send_btn {
+  width: 6.3vw;
+  padding: 0.6vw;
+  color: white;
+  background: #1b6cff;
+  border: none;
+  border-radius: 0.3vw;
+  font-size: 0.99vw;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 0.5vw;
+  left: 1vw;
+  cursor: pointer;
+  outline: none;
+  padding: 0.75vw;
+}
+
+.send_btn:hover {
+  background: #1b6bffea;
+  box-shadow: 0px 0px 6px rgb(209, 209, 209);
+}
+
+.inbox_mail_layout {
+  width: 80vw;
+  /* height: 39.8vw; */
+  position: relative;
+  background: #fefefef2;
+  margin-top: -9.4vw;
+  left: 18vw;
+  overflow-y: scroll;
+  padding-bottom: 1vw;
+}
+
+.email_main_items {
+  display: flex;
+  width: 73vw;
+  justify-content: space-between;
+}
+
+.email_subject {
+  font-size: 1.4vw;
+  color: #000000e0;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 3vw;
+}
+
+.email_header_items {
+  display: flex;
+}
+
+.email_inbox {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-self: center;
+  margin-left: 1vw;
+  font-size: 0.8vw;
+  font-weight: 500;
+  color: #797979fa;
+  background: #dfdfdf;
+  padding-left: 0.3vw;
+  padding-right: 0.3vw;
+  padding-bottom: 0.1vw;
+  border-radius: 0.1vw;
+}
+
+.email_middle {
+  display: flex;
+  justify-content: space-between;
+  width: 77.5vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+.email_middle_main {
+  display: flex;
+  height: 2.8vw;
+  display: flex;
+  height: 2.8vw;
+  justify-content: space-evenly;
+  width: 17vw;
+}
+
+.email_photo {
+  width: 2.8vw;
+  height: 2.8vw;
+  border-radius: 2vw;
+}
+
+.email_name {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  position: relative;
+  left: -1vw;
+  font-size: 1.25vw;
+  font-family: 'Roboto', sans-serif;
+  color: #000000d1;
+}
+
+.email_date {
+  color: gray;
+  font-size: 0.9vw;
+}
+
+.email_content {
+  margin-left: 3vw;
+  margin-top: 1.2vw;
+  font-size: 1.02vw;
+  font-family: 'Roboto', sans-serif;
+}
+
